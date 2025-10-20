@@ -1,11 +1,11 @@
 {
-  "name": "anthropic-agent-skills",
+  "name": "vincent-skills-marketplace",
   "owner": {
     "name": "Vincent Yang",
     "email": "yuezheng2006@126.com"
   },
   "metadata": {
-    "description": "Anthropic example skills with custom extensions",
+    "description": "Vincent's custom Claude skills with official examples",
     "version": "1.1.0"
   },
   "plugins": [
