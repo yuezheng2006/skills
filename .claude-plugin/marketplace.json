@@ -1,12 +1,12 @@
 {
   "name": "anthropic-agent-skills",
   "owner": {
-    "name": "Keith Lazuka",
-    "email": "klazuka@anthropic.com"
+    "name": "Vincent Yang",
+    "email": "yuezheng2006@126.com"
   },
   "metadata": {
-    "description": "Anthropic example skills",
-    "version": "1.0.0"
+    "description": "Anthropic example skills with custom extensions",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -37,6 +37,15 @@
         "./slack-gif-creator",
         "./theme-factory",
         "./brand-guidelines"
+      ]
+    },
+    {
+      "name": "custom-skills",
+      "description": "Custom skills including code extraction using repomix",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./code-extractor"
       ]
     }
   ]
